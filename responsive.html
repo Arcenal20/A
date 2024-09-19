@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Webpage</title>
+<style>
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:skyblue;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, nav, section, article, footer {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header, nav, section, article, footer {
+        padding: 5px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Responsive Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Welcome to my Responsive Webpage</h2>
+            <p>This is my simple  responsive webpage.</p>
+        </article>
+    </section>
+    <footer>
+       
+    </footer>
+</div>
+</body>
+</html>
